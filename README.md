@@ -37,8 +37,10 @@ Time is a factor here. 😉 We've only got 24 hours until lightning is due to st
 #### In `TimeCircuitsViewController`
 * Create a computed property called `dateFormatter` that is of type `DateFormatter` and initialize it with correct formatting rules (see how we did this in the guided project for help. Use [this](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) link to decide what formatting symbols to use).
 * Set the label that shows the present time on screen to the current date using the date formatter.
+//UNSURE HOW TO SET IT TO THE CURRENT DATE//
 * Create a variable property to store the current speed and set it to 0.
 * Set the speed label to show the current speed, with "MPH" appended to the end of the string.
+//THE FONT DOESNT CHANGE TO THE FLUX CAPACITER FONT I WANT//
 * Set the label showing the last time departed to `"--- -- ----"`.
 
 #### In `DatePickerViewController`
